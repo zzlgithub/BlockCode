@@ -26,8 +26,6 @@
     int result = manager.add(200).add(100).result;
     NSLog(@"%d",result);
     
-    
-    
     int result1 = [CalculateManager zzl_makeCalculates:^(CalculateManager *manager) {
         manager.add(10).add(10).add(10);
     }];
